@@ -146,10 +146,13 @@ php artisan cache:clear
 ### 9. Testing
 
 *   Unit Tests: Test the Binary Search algorithm in isolation.
+
   Directory: **quotes-app/packages/MyVendor/Quotes/tests/Unit/**
 *   Feature Tests: Test the API endpoints and the Console Command (mocking the API to simulate rate limits).
+
   Directory: **quotes-app/packages/MyVendor/Quotes/tests/Feature/**
 *   Tool: Tests must be written using PestPHP.
+
   Run:
   ```
    vendor/bin/pest
