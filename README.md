@@ -154,6 +154,7 @@ php artisan cache:clear
   ```
    vendor/bin/pest
    ```
+<img width="1916" height="884" alt="screenshot" src="https://github.com/user-attachments/assets/52b85142-9a60-471c-b463-72c376cf332a" />
 
 ### 10. Run the Application
 
