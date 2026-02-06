@@ -143,8 +143,19 @@ php artisan config:clear
 php artisan view:clear
 php artisan cache:clear
 ```
+### 9. Testing
 
-### 9. Run the Application
+*   Unit Tests: Test the Binary Search algorithm in isolation.
+  Directory: **quotes-app/packages/MyVendor/Quotes/tests/Unit/**
+*   Feature Tests: Test the API endpoints and the Console Command (mocking the API to simulate rate limits).
+  Directory: **quotes-app/packages/MyVendor/Quotes/tests/Feature/**
+*   Tool: Tests must be written using PestPHP.
+  Run:
+  ```
+   vendor/bin/pest
+   ```
+
+### 10. Run the Application
 
 ```
 php artisan serve
